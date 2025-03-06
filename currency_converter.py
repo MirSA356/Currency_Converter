@@ -55,7 +55,7 @@ def get_exchange_rate(base_currency, target_currency):
 amount = st.number_input("Enter amount:", min_value=0.01, format="%.2f")
 
 # Currency selection
-currencies = ["USD", "EUR", "GBP", "INR", "JPY", "AUD", "CAD", "CHF", "CNY", "SEK"]
+currencies = ["USD", "EUR", "GBP", "PKR", "JPY", "AUD", "CAD", "CHF", "CNY", "SEK"]
 from_currency = st.selectbox("From", currencies)
 to_currency = st.selectbox("To", currencies)
 
