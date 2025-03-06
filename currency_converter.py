@@ -41,7 +41,7 @@ st.write("Convert currency using real-time exchange rates!")
 
 # Function to get exchange rates
 def get_exchange_rate(base_currency, target_currency):
-    API_KEY = "YOUR_API_KEY"  # Replace with your API key from https://exchangerate-api.io/
+    API_KEY = "177baaa251433248cee8cbf9"  # Replace with your API key from https://exchangerate-api.io/
     url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/{base_currency}"
     response = requests.get(url)
     data = response.json()
